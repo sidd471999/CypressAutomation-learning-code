@@ -1,0 +1,100 @@
+The Complete Cypress v12 Course: From Zero to Expert! [2023]
+
+
+---------------The key features 
+
+Time travel 
+
+Real time reload - auto reload and trigger test after any changes 
+
+Automactic waiting- Avoid async hell 
+
+Debuggability - easy test debugability 
+
+Spies stubs -- use to spy and stub api request and response 
+
+consistent result -- gives consisit results 
+
+screenshot and video caputre -- take auto screenshot and video of every step 
+
+network traffic control --- provide netwrok tarffic control for easy api testing 
+
+
+-----------How does cypress work 
+
+
+
+cypress is one stop for all automation testing 
+and cypress is most end to end testing tool bulid on node js 
+you can test that runs in browser
+ it is all in one package 
+you can further improve your testing if you can use dashboard feature ,
+parallezation features and much more 
+
+
+
+----------pros of cypress 
+
+easy  to setup
+
+quick and very stable 
+
+flake resistant-
+
+api testing - 
+
+
+----------cons of cypress 9 to cypress 10 
+
+
+
+
+need js experinece 
+
+you can alter view port but cant perform mobile testing 
+
+single domain and single tab 
+
+you need to pay a monthly fee to get extra feature of dashboard 
+
+
+-------------changes in cypress v9 to v10 
+
+change in the ui 
+
+intergartion renamed to e2e 
+
+plugins is not present you add plugin in support e2e.js 
+
+cypress.json is changed to cypress.config.js 
+
+test runner is rename as cypress app 
+
+------------How to migrate form cypress 
+
+npm install --save-dev cypress@10
+
+
+----------------- install node js 
+
+go to chrome 
+
+nodejs download 
+
+select the lts version and click next 
+
+
+--- how to configure file 
+
+
+in cypress.config.js add the line in the e2e {
+ specPattern:"cypress/e2e/**/*.{js,feature,cy}"
+}
+
+
+** = select all folder 
+
+* =select all files in the folder 
+
+
+

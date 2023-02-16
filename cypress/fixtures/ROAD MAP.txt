@@ -1,0 +1,10 @@
+0 Introduction 
+
+1 Project and high priproty questions
+
+2 mannual testing and cypress testing 
+
+3 js concepts & js logical 
+
+
+
