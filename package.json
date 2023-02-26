@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "Junit-merge": "npx junit-merge -d cypress/results/Junit -o cypress/results/Junit/results.xml",
     "delete-Junit-report": "rm -rf cypress/results/Junit/results.xml",
-    "delete-results": "rm -rf cypress/results/*||true"
+    "delete-results": "rm -rf cypress/results/*||true",
+    "trigger-test-dashboard":"npx cypress run --record --key 11c513b2-daa4-4ac1-a23e-10b4eb671459"
   },
   "keywords": [],
   "author": "",
